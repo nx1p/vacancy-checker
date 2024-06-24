@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vacancy-checker"
+version = "0.1.0"
+description = "A script to check for job vacancies"
+authors = ["nx1p <email@marci.tech>"]
+readme = "README.md"
+packages = [{include = "vacancy-checker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
